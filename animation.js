@@ -13,7 +13,7 @@ function moveAll() {
 		var elem = document.getElementById("a" + i);
 		var theta = rand_num*i*i;
 		var pos_x = rand_num*(i*4 + 1);
-		var pos_y = 20 + i*2;
+		var pos_y = 30 + i*2;
 		var id = setInterval(frame, 10);
 
 		function frame() {
@@ -23,7 +23,7 @@ function moveAll() {
 			} else  {
 				theta += 0.01;
 				pos_x += 0.05 + 0.005*rand_num*(i % 20 + 1);
-				elem.style.top = pos_y + 10*(rand_num + 1)*Math.sin(theta) + '%';
+				elem.style.top = (pos_y + 10*(rand_num + 1)*Math.sin(theta)) + '%';
 				elem.style.left = pos_x + '%';
 				if (pos_x >= 99.8) {
 					pos_x = 0;

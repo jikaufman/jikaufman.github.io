@@ -20,14 +20,14 @@ li {
 	font-size: 20px;
 	float: right;
 	padding-top: 15px;
-	padding-right: 10px;
+	padding-right: 30px;
 }
 
 li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 20px;
 	text-decoration: none;
 }
 
@@ -52,4 +52,5 @@ p {
 	height: 3px;
 	position: absolute;
 	background-color: yellow;
+	border-radius: 3px;
 }
