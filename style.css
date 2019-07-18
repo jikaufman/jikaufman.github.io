@@ -1,0 +1,57 @@
+
+body {
+	background-image: linear-gradient(rgb(16,16,16),rgb(100,100,100));
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 10px;
+	bottom: 10px;
+	width: 100%;
+}
+
+li {
+	font-family: "Courier";
+	font-size: 20px;
+	float: right;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+li a:hover {
+	color: yellow;
+}
+
+p {
+	font-family: "Bebas Neue";
+	font-size: 35px;
+	padding-left: 300px;
+	padding-right: 300px;
+	margin-top: 350px;
+	margin-bottom: 350px;
+	text-align: center;
+}
+
+
+#animation {
+	width : 3px;
+	height: 3px;
+	position: absolute;
+	background-color: yellow;
+
+
+}
